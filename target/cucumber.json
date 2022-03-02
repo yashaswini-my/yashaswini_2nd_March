@@ -1,0 +1,88 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3497801400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Test_steps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1345799900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "Test_steps.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134562100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters UserName and Password",
+            "match": {
+              "location": "Test_steps.user_enters_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 421000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "Test_steps.message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login_log_out"
+          },
+          {
+            "name": "@succesful_login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "Feature99/Login.feature",
+    "tags": [
+      {
+        "name": "@Login_log_out",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
